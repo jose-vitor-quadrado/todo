@@ -5,7 +5,6 @@ class Item {
         this.id = Item.lastId++;
         this.text = text;
         this.done = false;
-
     }
 }
 
