@@ -68,3 +68,27 @@ button img {
     padding: 20px;
     background-color: white;
 }
+
+.todoForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todoForm input {
+    padding: 3px 8px;
+}
+
+.todoButton {
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.todoButton:hover {
+    background-color: #1a82d8;
+}
