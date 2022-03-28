@@ -19,7 +19,7 @@ function TodoForm(props) {
     return (
         <form className="todoForm">
             <input onChange={handleChange} type="text" value={text}></input>
-            <button class="todoButton" onClick={addItem}>Add</button>
+            <button className="todoButton" onClick={addItem}>Add</button>
         </form> 
     );
 }
